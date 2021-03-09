@@ -1,0 +1,4 @@
+
+
+INSERT INTO `child` (`child_ID`, `child_FullName`, `Guardian_Name`, `child_birthday`, `Guardian_Email`, `child_Password`, `child_Address`, `Guardian_Phone`, `child_city`, `LastLogin`, `child_photo_path`) VALUES
+(10001, 'Eman', 'Md. Imriaz', '04-10-2030', 'md.imriaz@gmail.com', 'imriaz', 'Mukim Sarang Bari, Gachbaria, Mirsarai, Chittagong', '01647446111', 'Chittagong', '', '');

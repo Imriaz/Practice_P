@@ -1,0 +1,8 @@
+CREATE TABLE vaccinelist(
+V_ID int(10) NOT NULL,
+V_name varchar(50) NOT NULL,
+V_i_time varchar(50) NOT NULL,
+V_e_time varchar(50) NOT NULL,
+V_price int(50) NOT NULL,
+V_place varchar(1000) NOT NULL,
+V_dose int(10) NOT NULL);

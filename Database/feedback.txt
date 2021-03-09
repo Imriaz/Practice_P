@@ -1,0 +1,6 @@
+CREATE TABLE `feedback` (
+  `email` varchar(50) DEFAULT NULL,
+  `name` varchar(50) DEFAULT NULL,
+  `Feedback` varchar(1000) DEFAULT NULL,
+
+	PRIMARY KEY (email));

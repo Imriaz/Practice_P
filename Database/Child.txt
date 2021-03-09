@@ -1,0 +1,25 @@
+CREATE TABLE child(
+  
+child_ID int(10) NOT NULL,
+  
+child_FullName varchar(20) NOT NULL,
+  
+Guardian_Name varchar(20) NOT NULL,
+
+child_birthday varchar(20) NOT NULL,
+  
+Guardian_Email varchar(50) NOT NULL,
+  
+child_Password varchar(20) NOT NULL,
+  
+child_Address varchar(200) NOT NULL,
+  
+Guardian_Phone varchar(20) NOT NULL,
+  
+child_city varchar(20) NOT NULL,
+  
+LastLogin varchar(50) NOT NULL
+,
+child_photo_path varchar (250) NOT NULL,
+
+PRIMARY KEY (Guardian_Phone));

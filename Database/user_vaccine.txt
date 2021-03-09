@@ -1,0 +1,11 @@
+CREATE TABLE user_vaccine(
+V_ID int(10) NOT NULL,
+V_name varchar(50) NOT NULL,
+Guardian_Phone varchar(14) NOT NULL,
+V_strt_time varchar(50) NOT NULL,
+V_Dose varchar(10) NOT NULL,
+V_price int(100) NOT NULL,
+V_place varchar(250) NOT NULL,
+
+PRIMARY KEY (V_ID),
+FOREIGN KEY (Guardian_Phone) REFERENCES child (Guardian_Phone));
